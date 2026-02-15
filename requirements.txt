@@ -1,5 +1,14 @@
 # requirements.txt
 shiny==0.6.0
-pandas==1.4.0
-matplotlib==3.5.0
-psycopg==3.1.17
+pandas>=2.0.0
+matplotlib>=3.7.0
+supabase
+python-dotenv
+websockets>=13.0
+openbb>=4.0.0
+plotly>=5.18.0
+scipy
+diskcache
+shinywidgets
+Jinja2
+shinyswatch

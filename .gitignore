@@ -1,8 +1,32 @@
-# .env
+# Environment & Secrets
 .env
+.env.*
 
-# __pycache__
-__pycache__
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
 
-# build
-build
+# Build
+build/
+dist/
+*.egg-info/
+
+# Caches
+.openbb_cache/
+.ruff_cache/
+
+# Data (too large for Git)
+Stock_History.csv
+
+# Debug artifacts
+debug/
+
+# Deployment metadata (contains local paths)
+rsconnect-python/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,91 @@
+/* Viden Insight - Viden Strategy Brand Theme (Navy & Gold) */
+
+:root {
+    --viden-navy: #020b1c;
+    --viden-gold: #fbbf24;
+    /* Amber-400 */
+    --viden-gold-dim: rgba(251, 191, 36, 0.1);
+    --viden-card-bg: #0f172a;
+    /* Slate-900 */
+    --viden-text: #e2e8f0;
+    --viden-muted: #94a3b8;
+}
+
+body {
+    background-color: var(--viden-navy) !important;
+}
+
+.verdict-box {
+    border-left: 4px solid var(--viden-gold) !important;
+    background: linear-gradient(90deg, rgba(251, 191, 36, 0.1) 0%, transparent 100%) !important;
+}
+
+.card-header {
+    font-weight: 700 !important;
+    color: var(--viden-gold) !important;
+    font-size: 0.85rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(251, 191, 36, 0.2) !important;
+}
+
+h2 {
+    background: linear-gradient(135deg, #ffffff 0%, var(--viden-gold) 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--viden-gold) 0%, #d97706 100%) !important;
+    border: none !important;
+    color: #0f172a !important;
+    /* Dark text on gold button */
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.4) !important;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #0f172a !important;
+    /* Slightly lighter navy for contrast */
+    border-right: 1px solid rgba(251, 191, 36, 0.1) !important;
+}
+
+.badge-bullish {
+    background-color: rgba(52, 211, 153, 0.15) !important;
+    color: #34d399 !important;
+    border: 1px solid rgba(52, 211, 153, 0.3) !important;
+}
+
+.badge-bearish {
+    background-color: rgba(248, 113, 113, 0.15) !important;
+    color: #f87171 !important;
+    border: 1px solid rgba(248, 113, 113, 0.3) !important;
+}
+
+.badge-neutral {
+    background-color: rgba(251, 191, 36, 0.15) !important;
+    color: #fbbf24 !important;
+    border: 1px solid rgba(251, 191, 36, 0.3) !important;
+}
+
+/* Table Contrast */
+.shiny-table {
+    border-color: #334155 !important;
+}
+
+.shiny-table th {
+    background-color: rgba(15, 23, 42, 1) !important;
+    color: var(--viden-gold) !important;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.shiny-table td {
+    color: #cbd5e1 !important;
+}
